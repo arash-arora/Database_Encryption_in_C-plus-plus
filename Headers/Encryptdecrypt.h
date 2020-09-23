@@ -48,7 +48,7 @@ void decryption(){
             ch=ch-key;
         }
         u.password[i]=ch;
-        cout<<"Decrypted Password : "u.password;
+        cout<<u.password;
     }
 }
 #endif
